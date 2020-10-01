@@ -1,4 +1,3 @@
-@"
 # Topics in Pattern Recognition and Machine Learning
 
 This repository contains exercise solutions and implementations for the Topics in Pattern Recognition and Machine Learning course (Winter Semester 2020/2021).
