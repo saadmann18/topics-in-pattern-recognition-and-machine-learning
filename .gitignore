@@ -1,34 +1,16 @@
 @"
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+# Ignore everything
+*
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-
-# Misc
-.DS_Store
-.idea/
-.vscode/
-*.swp
-*.swo
+# But track these files
+!README.md
+!Tutorials/
+Tutorials/*
+!Tutorials/1. Curve Fitting/
+Tutorials/1. Curve Fitting/*
+!Tutorials/1. Curve Fitting/curve_fitting_template.ipynb
+!Tutorials/1. Curve Fitting/curve_fitting_WorkedExample.ipynb
+!Tutorials/1. Curve Fitting/curve_fitting.pdf
+!Tutorials/1. Curve Fitting/curve_fitting_solution.pdf
+!.gitignore
 "@ | Out-File -FilePath .gitignore -Encoding utf8
