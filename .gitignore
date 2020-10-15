@@ -4,13 +4,11 @@
 
 # But track these files
 !README.md
-!Tutorials/
-Tutorials/*
-!Tutorials/1. Curve Fitting/
-Tutorials/1. Curve Fitting/*
-!Tutorials/1. Curve Fitting/curve_fitting_template.ipynb
-!Tutorials/1. Curve Fitting/curve_fitting_WorkedExample.ipynb
-!Tutorials/1. Curve Fitting/curve_fitting.pdf
-!Tutorials/1. Curve Fitting/curve_fitting_solution.pdf
+!1_Curve_Fitting/
+1_Curve_Fitting/*
+!1_Curve_Fitting/curve_fitting_template.ipynb
+!1_Curve_Fitting/curve_fitting_WorkedExample.ipynb
+!1_Curve_Fitting/curve_fitting.pdf
+!1_Curve_Fitting/curve_fitting_solution.pdf
 !.gitignore
-"@ | Out-File -FilePath .gitignore -Encoding utf8
+"@ | Out-File -FilePath .gitignore -Encoding utf8 -Force
